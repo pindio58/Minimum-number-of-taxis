@@ -35,7 +35,7 @@ Second customer wants to be picked up 2 and dropped off 6.
 
 requests = [(1, 4), (2, 6)]
 
-min_num_taxis(requests) # => 2
+min_num_taxis(requests) => 2
 
 Two customers, no overlap in schedule. Only one taxi needed.
 First customer wants to be picked up 1 and dropped off 4.
@@ -43,6 +43,6 @@ Second customer wants to be picked up 5 and dropped off 9.
 
 requests = [(1, 4), (5, 9)]
 
-min_num_taxis(requests) # => 1
+min_num_taxis(requests) => 1
 
 
