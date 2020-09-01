@@ -9,4 +9,5 @@ def min_num_taxis (requests):
             counter += 1
         else:
             del do_list[ 0 ]
+
     return counter
